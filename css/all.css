@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background: #E1E1E1;
+}
+.wrap{
+	max-width: 100%;
+	font-family: Roboto-Medium;
+}
+.clearfix{
+	clear: both;
+}
+.menu{
+	width: 100%;
+	height: 70px;
+	background: #4A90E2;
+}
+.menu-text{
+	margin: 0 auto;
+	width: 80%;
+	height: 70px;
+}
+.menu-text li{
+	float: left;
+	width: 31.33333%;
+	margin: 0 1% 0 1%;
+	text-align: center;
+	font-size: 24px;
+}
+.menu-text li a{
+	color: #fff;
+	display: block;
+	padding: 23px;
+}
+.menu-text li a:hover{
+	background: #FFF2DC;
+	border-radius: 10px;
+	color: #000;
+	cursor: pointer;
+}
+.main{
+	margin: 0 auto;
+	height: 90%;
+	width: 65%;
+}
+.addtask{
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	padding: 15px;
+	border-radius: 10px;
+	border-style: none;
+	font-size: 1.5em;
+}
+.tasklist-common1,.tasklist-common2{
+	padding: 40px;
+	margin-bottom: 20px;
+	border-radius: 8px;
+}
+.tasklist-common1{
+	background: #FFF2DC;
+}
+.tasklist-common2{
+	background: #F2F2F2;
+}
+.checkbox,.things,.items{
+	display: inline-block;
+	position: relative;
+}
+.checkbox input{
+	position: absolute;
+	top: -40px;
+	right: 70%;
+	width: 24px;
+	height: 24px;
+}
+.things{
+	width: 75%;
+	margin-left: 40px;
+}
+.things h3{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.things p{
+	font-size: 18px;
+}
+.things i{
+	margin-right: 10px;
+}
+.items i{
+	font-size: 24px;
+	padding-right: 40px;
+}
